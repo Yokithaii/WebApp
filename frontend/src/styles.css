@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+:root { --madi-blue:#0B3A82; --madi-orange:#FF7A00; --madi-white:#FFFFFF; --text:#0B1220; --muted:#6B7280; --bg:#F7F9FC; --card:#FFFFFF; --border:#E5E7EB; }
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial;color:var(--text);background:var(--bg)}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.btn{padding:10px 14px;border-radius:12px;border:1px solid var(--border);background:var(--madi-blue);color:#fff;font-weight:600;cursor:pointer}
+.btn.secondary{background:var(--madi-orange)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--madi-blue);color:#fff;font-size:12px}
+.link{color:var(--madi-blue);text-decoration:none;border-bottom:1px dashed var(--madi-blue)}
+.topbar{background:var(--madi-blue);color:#fff;padding:12px 16px}.topbar a{color:var(--madi-orange);margin-left:16px}
+.grid{display:grid;gap:12px}.grid2{grid-template-columns:1fr 1fr}.input, textarea{width:100%;padding:12px;border-radius:12px;border:1px solid var(--border)}
+.label{font-size:13px;color:var(--muted);margin-bottom:6px;display:block}.kbd{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:2px 6px;font-size:12px}
+/* assistant */
+.asst{position:fixed;right:20px;bottom:20px;width:340px;max-height:65vh;background:#fff;border:1px solid var(--border);border-radius:16px;padding:12px;
+box-shadow:0 10px 24px rgba(0,0,0,.15);overflow:auto;z-index:9999;display:none}
+.asst.open{display:block}.asst-title{font-weight:700;color:var(--madi-blue);margin-bottom:8px}.asst-btn{margin:4px 4px 0 0}
+.asst-tip{font-size:13px;color:var(--muted);margin-top:8px}.asst-toggle{position:fixed;right:20px;bottom:20px;background:var(--madi-orange);color:#fff;
+border:none;border-radius:999px;padding:10px 14px;font-weight:700;cursor:pointer;z-index:10000}
